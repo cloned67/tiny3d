@@ -1,0 +1,27 @@
+struct InputVertex
+{
+    float4 vertex : POSITION;
+    fixed4 color : COLOR0;
+    float2 texcoord : TEXCOORD0;
+};
+
+struct OutputVertex
+{
+    float4 vertex : POSITION;
+    float4 color: COLOR0;
+    float2 texcoord : TEXCOORD0;
+};
+
+uniform float4x4 TransMatrix;
+
+OutputVertex main (InputVertex inputvertex)
+{
+    OutputVertex outputvertex;
+   
+    outputvertex.vertex    = mul(inputvertex.vertex,TransMatrix);
+    outputvertex.vertex.z *= outputvertex.vertex.w;
+    outputvertex.color     =  inputvertex.color;
+    outputvertex.texcoord  = inputvertex.texcoord;
+
+    return outputvertex;
+}
