@@ -1,3 +1,8 @@
+/* 
+   TINY3D sample / (c) 2010 Hermes  <www.elotrolado.net>
+
+*/
+
 #include "utils.h"
 
 #include <math.h>

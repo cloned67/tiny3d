@@ -1,3 +1,8 @@
+/* 
+   TINY3D sample / (c) 2010 Hermes  <www.elotrolado.net>
+
+*/
+
 #ifndef UTILS_H
 #define UTILS_H
 

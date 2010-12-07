@@ -1,3 +1,7 @@
+/* 
+   TINY3D sample / (c) 2010 Hermes  <www.elotrolado.net>
+
+*/
 
 #include <stdio.h>
 #include <malloc.h>
