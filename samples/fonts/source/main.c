@@ -98,7 +98,7 @@ void drawScene()
     y += 72;
 
     SetFontColor(0x00ff00ff, 0x00000000);
-    DrawFormatString(0, y, "Here %s font 0 uses %i bytes as texture", "using DrawFormatString()", 224*(16*4/8)*32);
+    DrawFormatString(0, y, "Here %s font 0 uses %i bytes as texture", "using DrawFormatString()", 224*(16*2/8)*32);
 
 }
 
