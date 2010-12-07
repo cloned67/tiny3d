@@ -49,4 +49,6 @@ Remember you can descend later to the samples folder to compile ONLY the samples
 Current Status
 --------------
 
-It works with two samples: spheres3D and sprites2D
+Added libfont.a with support for fonts based in bitmaps arrays of characters
+
+It works with four samples: spheres3D, sprites2D, surfaces and fonts
