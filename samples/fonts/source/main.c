@@ -1,3 +1,7 @@
+/* 
+   TINY3D sample / (c) 2010 Hermes  <www.elotrolado.net>
+
+*/
 
 #include <stdio.h>
 #include <malloc.h>
@@ -95,8 +99,6 @@ void drawScene()
 
     SetFontColor(0x00ff00ff, 0x00000000);
     DrawFormatString(0, y, "Here %s font 0 uses %i bytes as texture", "using DrawFormatString()", 224*(16*4/8)*32);
-
-
 
 }
 
