@@ -584,7 +584,7 @@ void tiny3d_BlendFunc (int enable, blend_src_func src_fun, blend_dst_func dst_fu
 {
     realityBlendFunc(context, src_fun, dst_func);
     realityBlendEquation(context, func);
-    realityBlendEnable(context, 1);
+    realityBlendEnable(context, enable!=0);
 }
 
 /***********************************************************************************************************/
