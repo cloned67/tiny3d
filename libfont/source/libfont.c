@@ -1,3 +1,8 @@
+/* 
+   TINY3D - font library / (c) 2010 Hermes  <www.elotrolado.net>
+
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h> 

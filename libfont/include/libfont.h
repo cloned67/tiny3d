@@ -1,3 +1,8 @@
+/* 
+   TINY3D - font library / (c) 2010 Hermes  <www.elotrolado.net>
+
+*/
+
 #ifndef LIBFONT_H
 #define LIBFONT_H
 
